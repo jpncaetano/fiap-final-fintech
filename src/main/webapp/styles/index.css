@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #ff8200;
+}
+
+a {
+  color: #cf7d25;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #ff8200;
+  border-color: #ffea83;
+}
+
+.btn {
+  background-color: #e0e0e0;
+}
+
+.btn-primary {
+  background-color: #ff8200 !important;
+  border-color: #ff8200 !important;
+  color: #fff !important;
+  border-radius: 12px !important;
+  width: 119px;
+}
+
+.btn-primary:hover {
+  background-color: #cf7d25;
+  border-color: #ff8200;
+}
+
+.btn-navigation {
+  width: 250px;
+  text-align: center;
+  background-color: #ff8200 !important;
+  border-color: #ff8200;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 384px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 384px;
+  flex-direction: column;
+}
+
+.form-control {
+  border-radius: 12px;
+  outline: none;
+  height: 45px;
+  width: 380px;
+}
+
+.form-control:focus {
+  border-color: #cf7d25;
+  box-shadow: 1px 3px 5px #cf7d25;
+}
+
+.form-control::placeholder {
+  color: #ff8200;
+}
+
+.second-container {
+  padding-top: 50px;
+}
+
+.accordion-item + .accordion-item {
+  margin-top: -10px;
+}
+
+.accordion-body {
+  display: flex;
+  justify-content: space-around;
+  max-width: 384px;
+  color: white;
+}
+
+.accordion-body :first-child,
+.accordion-body :last-child {
+  color: #ff8200;
+  font-weight: 600;
+}
+
+.accordion-header,
+.accordion-item button {
+  width: 384px;
+  background-color: #ff8200;
+  color: white;
+}
+
+.accordion-item {
+  color: black;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff8200;
+}
+
+.accordion-button:not(.collapsed) .fas {
+  color: #000;
+}
+
+.button-box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-box > button {
+  width: 50%;
+}
+
+.credit {
+  color: red;
+  font-weight: 600;
+}
+
+.debit {
+  color: green;
+  font-weight: 600;
+}
+
+.header {
+  width: 100%;
+  height: 8dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header > img {
+  width: 40px;
+  height: 40px;
+}
+
+.header :first-child {
+  width: 85px;
+  height: 55px;
+}
+
+.transaction-amount {
+  font-weight: bold;
+}
+
+.transaction-debit {
+  color: red;
+}
+
+.transaction-credit {
+  color: green;
+}
+
+.accordion-body ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.accordion-body li {
+  display: block;
+  width: 380px;
+  height: 130px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.accordion-body li:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.accordion-body li:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+.accordion-body li strong {
+  font-size: 1.1rem;
+}
+
+#toggleSaldoButton::after {
+  display: none;
+}
+
+#toggleSaldoButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#saldoAtual {
+  margin-right: 10px;
+}
+
+#eyeIcon {
+  color: rgb(42, 41, 41);
+}
+
+.img-icon {
+  width: 20px;
+  height: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 80px;
+}
